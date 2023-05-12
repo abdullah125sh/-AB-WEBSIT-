@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer" ></script>
+    <style type="text/css">
+        *{
+            padding: 0; margin:0; box-sizing:border-box;font-family: sans-serif;
+            
+        }
+        header{
+            width: 100%;
+            height: 100vh;
+           background-image: url(oo.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            position: relative;
+            
+        }
+        nav{
+            width:100% ;
+            height: 70px;
+            padding:0px 70px ;
+            background: rgb(255, 255, 255,0.5);
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 2px 0px 5px grey;
+        }
+   .logo{
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+   }
+   .logo span{
+    color: brown;
+   }
+   .menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+   }
+   .menu a:last-child{
+    background: brown;
+    color: white;
+    border-radius: 8px;
+   }
+ 
+   nav a:hover{
+            text-decoration: none;
+    color: white;
+    background: green;
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: .3s;
+        }
+        .body1{
+			margin: 0;
+			padding: 0;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			color: #444;
+		}
+		section{
+			position: absolute;
+			top: 40%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			height: 400px;
+			width: 1200px;
+			background-color: white;
+			box-shadow: 0 10px 30px rgb(0,0,0,0.5);
+			display: flex;
+		}
+		 .contect{
+			width: calc(50% - 50px);
+			height: 100% ;
+			background-color: white;
+			padding: 2% 5%;
+			line-height: 1.5em;
+			font-size: 18px;
+			text-align: justify;
+		 }
+
+		 .imagebox{
+        width: calc(50% + 50px);
+		height:300px;
+		background-color: rgb( 31, 223, 223);
+        border-left: 100px solid white;
+		border-bottom: 400px solid transparent;
+		 }
+		 h1{
+			text-transform: uppercase;
+		 }
+   </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><span>Cafe</span>Kick</div>
+            <div class="menu">
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    HOME</a>
+                <a href="food.html">
+                    <i class="fa-solid fa-utensils"></i>
+                    FOODS</a>
+                
+                <a href="about.html"> <i class="fa-solid fa-person"></i>ABOUT</a>
+                <a href="contact.html">
+                    <i class="fa-solid fa-phone fa-shake"></i>
+                    CONTACT</a>
+            </div>
+        </nav>
+		<header class="body1" > 
+        <section class="skewbox">
+			<div class="contect">
+				<h1>About me </h1><br><br>
+				<p> It was a sunny morning and Allison Baker was sitting on her porch with her hands holding on to the sunflower coffee cup. The coffee smelled so fresh it blended with the morning air. As she was drinking her coffee and quietly into to town, Allison was listening to the morning birds in the far off distance tweeting away the wind was blowing silently in the distance.
+
+				</p>
+			</div>
+			<div class="imagebox">
+				<img style="border-radius: 50%; width: 400px;height: 300px;position: relative;top: 50px;left: 50px;" src="pic 1.jpg" alt="">
+			</div>
+		</section>
+	</header>
+</body>
+</html>
